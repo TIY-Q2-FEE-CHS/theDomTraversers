@@ -16,7 +16,7 @@ var monitor = $(".monitorSelect").val();
 var ship = $(".shipSelect").val();
 var location = $(".locationSelect").val();
 
-if(monitor === "monitor") {
+if(monitor === "monitor1") {
 	if(ship === "ship1") {
 		if(location ==="location1"){
 			$(".cost").text(monitor1.cost + ship1.cost + 

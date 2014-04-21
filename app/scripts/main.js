@@ -1,4 +1,3 @@
-$(document).ready(function() {
 
 function Monitor(size, cost) {
 	this.size = size;
@@ -16,4 +15,4 @@ function Location(area, cost) {
 
 }
 			
-});
+

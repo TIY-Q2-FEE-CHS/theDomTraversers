@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-function Screen(size, cost) {
+function Monitor(size, cost) {
 	this.size = size;
 	this.cost = cost;
 }

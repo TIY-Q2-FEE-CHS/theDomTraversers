@@ -1,5 +1,3 @@
-$(document).ready(function() {
-
 function Screen(size, cost) {
 	this.size = size;
 	this.cost = cost;
@@ -14,6 +12,4 @@ function Location(area, cost) {
 	this.area = area;
 	this.cost = cost;
 
-}
-			
 });

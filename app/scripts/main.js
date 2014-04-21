@@ -1,4 +1,4 @@
-// $(document).ready(function() {
+$(document).ready(function() {
 
 function Screen(size, cost) {
 	this.size = size;
@@ -16,4 +16,4 @@ function Location(area, cost) {
 
 }
 			
-};
+});

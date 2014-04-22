@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-alkjdfkdsjf
-=======
+
 var about = [
 {//AndrewInfo
 	"avatar_url":
-	"title":
+	"title": "Partner"
 	"hometown":
 	"hobby":
 },
@@ -21,4 +19,4 @@ var about = [
 	"hobby":
 }
 ];
->>>>>>> eb7147a195f512992171d7105194d9b54f678d67
+

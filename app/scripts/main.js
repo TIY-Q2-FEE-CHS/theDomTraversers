@@ -9,6 +9,7 @@ function Ship(time, cost) {
 	this.cost = cost;
 
 }
+
 function Location(area, cost) {
 	this.area = area;
 	this.cost = cost;

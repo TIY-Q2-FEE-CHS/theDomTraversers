@@ -13,7 +13,7 @@ var about = [
 },
 {//ShawnInfo
 	"avatar_url":
-	"title":
+	"title": "Marketing Manager"
 	"hometown":
 	"hobby":
 }

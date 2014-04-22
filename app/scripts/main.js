@@ -13,5 +13,7 @@ function Location(area, cost) {
 	this.area = area;
 	this.cost = cost;
 }
+
+// this is a comment to help demonstrate github workflow
 			
 

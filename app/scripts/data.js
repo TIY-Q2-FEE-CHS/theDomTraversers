@@ -67,16 +67,16 @@ if(monitor === "monitor1") {
 
 
 
-if monitor1
-	cost = m1 + s1 + l1 OR
-	cost = m1 + s1 + l2 OR
-	cost = m1 + s2 + l1 OR
-	cost = m1 + s2 + l2
-if monitor2
-	cost = m2 + s1 + l1 OR
-	cost = m2 + s1 + l2 OR
-	cost = m2 + s2 + l1 OR
-	cost = m2 + s2 + l2
+// if monitor1
+// 	cost = m1 + s1 + l1 OR
+// 	cost = m1 + s1 + l2 OR
+// 	cost = m1 + s2 + l1 OR
+// 	cost = m1 + s2 + l2
+// if monitor2
+// 	cost = m2 + s1 + l1 OR
+// 	cost = m2 + s1 + l2 OR
+// 	cost = m2 + s2 + l1 OR
+// 	cost = m2 + s2 + l2
 
 
 

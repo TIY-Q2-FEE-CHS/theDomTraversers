@@ -7,11 +7,9 @@ function Monitor(size, cost) {
 function Ship(time, cost) {
 	this.time = time;
 	this.cost = cost;
-
 }
 
 function Location(area, cost) {
 	this.area = area;
 	this.cost = cost;
-
 }

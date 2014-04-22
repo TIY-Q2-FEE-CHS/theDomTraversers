@@ -7,7 +7,7 @@ var about = [
 },
 {//KatInfo
 	"avatar_url":
-	"title":
+	"title": "crack smoker"
 	"hometown":
 	"hobby":
 },

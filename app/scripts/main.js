@@ -20,3 +20,5 @@ function Location(area, cost) {
 // this is a comment			
 
 
+
+

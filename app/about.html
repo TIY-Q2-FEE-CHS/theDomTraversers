@@ -19,6 +19,20 @@
         <script src="../bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
 
+        <script type="template/html" id="bioInfo">
+         <% _.each(bioData,function(element,index,list){ %>
+            <h3><img style="width:50px;" src="<%= element.avatar_url %>"></h3>
+
+            <ul class="list-unstyled">
+                <li><%= element.avatar_url %></li>
+                <li><%= element.name %></li>
+                <li><%= element.title %></li>
+                <li><%= element.hometown %></li>
+                <li><%= element.hobby %></li>
+            </ul>
+        <% }); %>
+        </script>
+
     </head>
     <body>
         <!--[if lt IE 10]>
@@ -29,41 +43,22 @@
         <div class="container">
             <div class="header">
                 <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
                 </ul>
                 <h3 class="text-muted">theDomTraversers</h3>
             </div>
 
             <div class="jumbotron">
-                <h1>Iron Yard Monitors</h1>
-                <p class="lead">Quality Crafted Computer Monitors</p>
+                <h1>Our Team</h1>
+                
                
             </div>
 
             <div class="row marketing">
                 <div class="col-lg-6">
-                    <form>
-                    <h4>Choose Monitor</h4>
-                    <select class="monitorSelect">
-                    <option value="monitor1">20" Monitor, $200</option>
-                    <option value="monitor2">17" Monitor, $175</option>
-                    </select>
-                    <h4>Choose Shipping Method</h4>
-                    <select class="shipSelect">
-                    <option value="ship1">Next Day, $20</option>
-                    <option value="ship2">Ground (5-7 days), $5</option>
-                    </select>
-                    <h4>Choose Your Shipping Region</h4>
-                    <select class="locationSelect">
-                    <option value="location1">East Coast, $5</option>
-                    <option value="location2">Mid-West, $10</option>
-                    </select>
-                     <p><input type="submit" class="btn btn-lg btn-warning" value="Estimate Cost"></p>
-                    </form>
-                    <p class="totalCost">$<div class="cost"></div></p>
+  
                 </div>
-            </div>
 
             <div class="footer">
                 <p><span class=""></span> Iron Yard, Inc.</p>

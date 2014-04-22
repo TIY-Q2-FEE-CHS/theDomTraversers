@@ -7,10 +7,10 @@ var about = [
 	"hobby":
 },
 {//KatInfo
-	"avatar_url":
-	"title": "crack smoker"
-	"hometown":
-	"hobby":
+	"avatar_url": "https://plus.google.com/u/0/me?tab=mX",
+	"title": "Partner",
+	"hometown": "Charleston",
+	"hobby": "Studying 18th Century English"
 },
 {//ShawnInfo
 	"avatar_url":

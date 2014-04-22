@@ -62,8 +62,35 @@ if(monitor === "monitor1") {
 	if(ship === "ship2") {
 		if(location === "location2") {
 			$(".cost").text(monitor1.cost + ship2.cost + location2.cost);
-
-
+		}
+	}	
+}
+if(monitor === "monitor2") {
+	if(ship === "ship1") {
+		if(location === "location1") {
+			$(".cost").text(monitor2.cost + ship1.cost + location1.cost);
+			// x()
+		}
+	}
+}
+if(monitor === "monitor2") {
+	if(ship === "ship1") {
+		if(location === "location2") {
+			$(".cost").text(monitor2.cost + ship1.cost + location2.cost);
+		}
+	}
+}
+if(monitor === "monitor2") {
+	if(ship === "ship2") {
+		if(location === "location1") {
+			$(".cost").text(monitor2.cost + ship2.cost + location1.cost);
+		}
+	}
+}
+if(monitor === "monitor2") {
+	if(ship === "ship2") {
+		if(location === "location2") {
+			$(".cost").text(monitor2.cost + ship2.cost + location2.cost);
 
 
 
@@ -77,6 +104,7 @@ if(monitor === "monitor1") {
 // 	cost = m2 + s1 + l2 OR
 // 	cost = m2 + s2 + l1 OR
 // 	cost = m2 + s2 + l2
+
 
 
 

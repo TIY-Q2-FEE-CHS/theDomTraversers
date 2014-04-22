@@ -14,4 +14,9 @@ function Location(area, cost) {
 	this.cost = cost;
 }
 
+
+
 // finally, this comment is better
+// this is a comment			
+
+

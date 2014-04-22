@@ -61,11 +61,25 @@ body {
 
 /* Supporting marketing content */
 .marketing {
+    background-color: #dfdfdf;
     margin: 40px 0;
     p + h4 {
         margin-top: 28px;
     }
 }
+
+.locationSelect {
+    margin-bottom: 50px;
+}
+
+.totalCost {
+    display: inline-block;
+}
+
+.cost {
+    display: inline-block;
+}
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {

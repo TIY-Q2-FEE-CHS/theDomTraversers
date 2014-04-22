@@ -12,16 +12,25 @@ var location2 = new Location("mid west", 10);
 
 $(document).ready(function() {
 
+$("form").submit(function(e) {
+	e.preventDefault();
+	console.log("is this working?");
+
 var monitor = $(".monitorSelect").val();
 var ship = $(".shipSelect").val();
 var location = $(".locationSelect").val();
 
 if(monitor === "monitor1") {
 	if(ship === "ship1") {
-		if(location ==="location1"){
-			$(".cost").text(monitor1.cost + ship1.cost + 
-				location1.cost);
-
+		if(location === "location1") {
+			$(".cost").text(monitor1.cost + ship1.cost + location1.cost);
+		}
+	}
+}
+if(monitor === "monitor1") {
+	if(ship === "ship1") {
+		if(location === "location2") {
+			$(".cost").text(monitor1.cost + ship1.cost + location2.cost);
 		}
 	}
 }
@@ -45,5 +54,5 @@ if(monitor === "monitor1") {
 
 
 
-
+});
 });

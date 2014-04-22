@@ -80,10 +80,15 @@ if(monitor === "monitor2") {
 
 
 
-
-
-
-
-
 });
 });
+
+var bioTemplate = _.template ($('#bioInfo').html(),(bioData));
+								$('.jumbotron').append(bioTemplate);
+
+
+
+
+
+
+

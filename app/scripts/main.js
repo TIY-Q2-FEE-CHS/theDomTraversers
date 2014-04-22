@@ -13,3 +13,5 @@ function Location(area, cost) {
 	this.area = area;
 	this.cost = cost;
 }
+
+// this is a comment

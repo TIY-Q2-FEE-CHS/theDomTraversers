@@ -1,7 +1,8 @@
+
 var about = [
 {//AndrewInfo
 	"avatar_url":
-	"title":
+	"title": "Partner"
 	"hometown":
 	"hobby":
 },
@@ -18,3 +19,4 @@ var about = [
 	"hobby":
 }
 ];
+

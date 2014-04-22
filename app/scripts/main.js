@@ -1,4 +1,5 @@
-function Screen(size, cost) {
+
+function Monitor(size, cost) {
 	this.size = size;
 	this.cost = cost;
 }
@@ -8,8 +9,9 @@ function Ship(time, cost) {
 	this.cost = cost;
 
 }
+
 function Location(area, cost) {
 	this.area = area;
 	this.cost = cost;
 
-});
+}

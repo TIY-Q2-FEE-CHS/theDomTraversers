@@ -21,14 +21,14 @@
 
         <script type="template/html" id="bioInfo">
          <% _.each(bioData,function(element,index,list){ %>
-            <h3><img style="width:50px;" src="<%= element.avatar_url %>"></h3>
+            <h3><img style="width:150px;" src="<%= element.avatar_url %>"></h3>
 
             <ul class="list-unstyled">
-                <li><%= element.avatar_url %></li>
+                <li><%= element.url %></li>
                 <li><%= element.name %></li>
-                <li><%= element.title %></li>
-                <li><%= element.hometown %></li>
-                <li><%= element.hobby %></li>
+                <li>Title: <%= element.title %></li>
+                <li>Hometown: <%= element.hometown %></li>
+                <li>Hobby: <%= element.hobby %></li>
             </ul>
         <% }); %>
         </script>
@@ -44,6 +44,7 @@
             <div class="header">
                 <ul class="nav nav-pills pull-right">
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
                     <li class="active"><a href="about.html">About</a></li>
                 </ul>
                 <h3 class="text-muted">theDomTraversers</h3>
@@ -59,6 +60,7 @@
                 <div class="col-lg-6">
   
                 </div>
+            </div>
 
             <div class="footer">
                 <p><span class=""></span> Iron Yard, Inc.</p>
@@ -104,6 +106,7 @@
         <script src="scripts/main.js"></script>
         <script src="scripts/data.js"></script>
         <script src="scripts/about.js"></script>
+        <script src="scripts/bio.js"></script>
         
         <!-- endbuild -->
 </body>

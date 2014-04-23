@@ -8,7 +8,7 @@ var bioData = [
 	"hobby": "github"
 },
 {//KatInfo
-	"avatar_url": "https://plus.google.com/u/0/me?tab=mX",
+	"avatar_url": "https://s3.amazonaws.com/uploads.hipchat.com/31349/751960/626geRphQL7XOYJ/kristenmcmenamyblue.jpg",
 	"name": "Kat",
 	"title": "Partner",
 	"hometown": "Charleston",

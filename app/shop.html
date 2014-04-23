@@ -54,6 +54,13 @@
 
 
         <!-- ship dropdown -->
+        <script type="template/html" id="shipInfo">
+
+         <% _.each(shipType, function(element,index,list){ %>
+            <option value="<%= element.name %>"><%= element.name %> - <%= element.price %></option>
+
+        <% }); %>
+        </script>
 
 
 
@@ -65,14 +72,7 @@
 
 
 
-
-
-
-
-
-
-
-        <!-- location dropdown -->
+    <!-- location dropdown -->
 
 
 

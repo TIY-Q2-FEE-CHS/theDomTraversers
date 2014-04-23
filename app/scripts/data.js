@@ -37,12 +37,6 @@ var productType = [
 },
 {
 	"image": "",
-	"name": "mouse2",
-	"type": "standard",
-	"price": 20.00,
-},
-{
-	"image": "",
 	"name": "case1",
 	"type": "leather",
 	"price": 75.00,
@@ -61,15 +55,15 @@ console.log(prodNames);
 var shipType = [
 {
 	"name": "FedEx Overnight",
-	"price": 20.00
+	"price": 20.00,
 },
 {
 	"name": "FedEx 2 Day",
-	"price": 15.00
+	"price": 15.00,
 },
 {
 	"name": "FedEx Ground",
-	"price": 5.00
+	"price": 5.00,
 }
 ];
 

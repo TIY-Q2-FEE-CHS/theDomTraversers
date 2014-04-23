@@ -20,19 +20,19 @@
         <!-- endbuild -->
 
         <!-- product options -->
+        <script type="template/html" id="gallery">
+         <% _.each(productType,function(element,index,list){ %>
+            <h3><img style="width:200px;" src="<%= element.image %>"></h3>
 
-
-
-
-
-
-
-
-
-
-
-
-
+            <ul class="list-unstyled">
+                <li><%= element.url %></li>
+                <li><%= element.name %></li>
+                <li>Type: <%= element.type %></li>
+                <li>$ <%= element.price %></li>
+                
+            </ul>
+        <% }); %>
+        </script>
 
 
 

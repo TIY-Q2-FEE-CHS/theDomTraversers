@@ -37,12 +37,6 @@ var productType = [
 },
 {
 	"image": "",
-	"name": "mouse2",
-	"type": "standard",
-	"price": 20.00,
-},
-{
-	"image": "",
 	"name": "case1",
 	"type": "leather",
 	"price": 75.00,
@@ -75,19 +69,19 @@ var shipType = [
 
 var locationType = [
 {
-	"region": "South",
+	"name": "South",
 	"price": 10.00
 },
 {
-	"region": "North-East",
+	"name": "North-East",
 	"price": 20.00
 },
 {
-	"region": "Mid-West",
+	"name": "Mid-West",
 	"price": 30.00
 },
 {
-	"region": "West",
+	"name": "West",
 	"price": 40.00
 }
 ];

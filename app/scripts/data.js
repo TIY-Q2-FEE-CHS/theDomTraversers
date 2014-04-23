@@ -69,19 +69,19 @@ var shipType = [
 
 var locationType = [
 {
-	"region": "South",
+	"name": "South",
 	"price": 10.00
 },
 {
-	"region": "North-East",
+	"name": "North-East",
 	"price": 20.00
 },
 {
-	"region": "Mid-West",
+	"name": "Mid-West",
 	"price": 30.00
 },
 {
-	"region": "West",
+	"name": "West",
 	"price": 40.00
 }
 ];

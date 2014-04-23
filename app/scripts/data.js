@@ -79,10 +79,6 @@ if(monitor === "monitor2") {
 
 
 
-var bioTemplate = $('#bioInfo').html();
-var theTeam = _.template(bioTemplate, bioData);
-$('.jumbotron').append(theTeam);
-
 
 });
 });

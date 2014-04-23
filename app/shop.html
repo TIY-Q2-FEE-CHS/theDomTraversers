@@ -19,26 +19,26 @@
         <script src="../bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
 
-        <!-- product options -->
+        <!-- product options template-->
+        <script type="template/html" id="gallery">
+         <% _.each(productType,function(element,index,list){ %>
+            <h3><img style="width:200px;" src="<%= element.image %>"></h3>
 
-
-
-
-
-
-
-
-
-
-
-
-
+            <ul class="list-unstyled">
+                <li><%= element.url %></li>
+                <li><%= element.name %></li>
+                <li>Type: <%= element.type %></li>
+                <li>$ <%= element.price %></li>
+                
+            </ul>
+        <% }); %>
+        </script>
 
 
 
 
     
-        <!-- product dropdown -->
+        <!-- product dropdown template-->
         <script type="template/html" id="productInfo">
         
          <% _.each(prodNames,function(element,index,list){ %>
@@ -53,8 +53,9 @@
 
 
 
-        <!-- ship dropdown -->
+
         <script type="template/html" id="shipInfo">
+
 
          <% _.each(shipType, function(element,index,list){ %>
             <option value="<%= element.name %>"><%= element.name %> - <%= element.price %></option>
@@ -71,8 +72,6 @@
 
 
 
-
-    <!-- location dropdown -->
 
 
 
@@ -113,7 +112,7 @@
             </div>
 
             <div class="jumbotron">
-                
+            
                
             </div>
 

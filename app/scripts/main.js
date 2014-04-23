@@ -1,23 +1,56 @@
+$(document).ready(function() {
 
-// function Monitor(size, cost) {
-// 	this.size = size;
-// 	this.cost = cost;
-// }
 
-// function Ship(time, cost) {
-// 	this.time = time;
-// 	this.cost = cost;
-// }
-
-// function Location(area, cost) {
-// 	this.area = area;
-// 	this.cost = cost;
-// }
+// Product gallery with description
+var galleryTemplate = $('#gallery').html();
+var galleryOptions = _.template(galleryTemplate, productType);
+$('.jumbotron').append(galleryOptions);
 
 
 
-// finally, this comment is better
-// this is a comment			
+// Adding customer options together
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

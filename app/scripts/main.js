@@ -17,8 +17,16 @@
 
 
 // finally, this comment is better
-// this is a comment			
+// this is a comment
 
+// for product gallery on shop page			
+$(document).ready(function() {
+
+var galleryTemplate = $('#gallery').html();
+var galleryOptions = _.template(galleryTemplate, productType);
+$('.jumbotron').append(galleryOptions);
+
+});
 
 
 

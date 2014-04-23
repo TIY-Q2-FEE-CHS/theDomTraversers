@@ -18,7 +18,27 @@
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="../bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
+
+        <!-- product options -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
+        <!-- product dropdown -->
         <script type="template/html" id="productInfo">
         
          <% _.each(prodNames,function(element,index,list){ %>
@@ -26,6 +46,53 @@
  
         <% }); %>
         </script>
+
+
+
+
+
+        
+
+        <!-- ship dropdown -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- location dropdown -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
     </head>
@@ -46,8 +113,7 @@
             </div>
 
             <div class="jumbotron">
-                <h1>Iron Yard Monitors</h1>
-                <p class="lead">Quality Crafted Computer Monitors</p>
+                
                
             </div>
 
@@ -55,24 +121,33 @@
                 <div class="col-lg-6">
                     <form>
                         <select name="products" class="products"></select>
-<!--                     <h4>Choose Monitor</h4>
-                    <select class="monitorSelect">
-                    <option value=""></option>
-                    <option value="monitor1">20" Monitor, $200</option>
-                    <option value="monitor2">17" Monitor, $175</option>
-                    </select>
-                    <h4>Choose Shipping Method</h4>
-                    <select class="shipSelect">
-                    <option value=""></option>
-                    <option value="ship1">Next Day, $20</option>
-                    <option value="ship2">Ground (5-7 days), $5</option>
-                    </select>
-                    <h4>Choose Your Shipping Region</h4>
-                    <select class="locationSelect">
-                    <option value=""></option>
-                    <option value="location1">South East, $5</option>
-                    <option value="location2">North East, $10</option>
-                    </select> -->
+                        <select name="shipping" class="shipping"></select>
+                        <select name="location" class="location"></select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                      <p><input type="submit" class="btn btn-lg btn-warning" value="Estimate Cost"></p>
                     </form>
                     <p class="totalCost">$<div class="cost"></div></p>

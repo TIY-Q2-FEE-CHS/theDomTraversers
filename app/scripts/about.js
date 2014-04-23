@@ -25,18 +25,7 @@ var bioData = [
 
 
 
-var monitorSpec = [
-{// 20 "
-	"url": "http://pisces.bbystatic.com/image2/BestBuy_US/images/mp/products/1308/1308889/1308889489/1308889489_500x500_sa.jpg;canvasHeight=500;canvasWidth=500",
-	"size": "20 inch"
 
-},
-{// 17 "
-	"url": "http://pisces.bbystatic.com/image2/BestBuy_US/images/mp/products/1307/1307136/1307136737/1307136737_500x500_sa.jpg;canvasHeight=500;canvasWidth=500",
-	"size": "17 inch"
-
-}
-];
 
 
 

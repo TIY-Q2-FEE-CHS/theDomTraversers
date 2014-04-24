@@ -44,7 +44,7 @@
         
          <% _.each(productType,function(element,index,list){ %>
             <option value="<%= element.name %>"></option>
-            <option value="<%= element.name %>"><%= element.name %> - <%= element.price %></option>
+            <option value="<%= element.price %>"><%= element.name %> - <%= element.price %></option>
  
         <% }); %>
         </script>
@@ -60,7 +60,7 @@
 
 
          <% _.each(shipType, function(element,index,list){ %>
-            <option value="<%= element.name %>"><%= element.name %> - <%= element.price %></option>
+            <option value="<%= element.price %>"><%= element.name %> - <%= element.price %></option>
 
         <% }); %>
         </script>
@@ -75,12 +75,12 @@
 
 
 
-<script type="template/html" id="locationInfo">
-    <% _.each(locationType, function(element, index, list){ %>
-        <option value="<%= element.name %>"><%= element.name %> - <%= element.price %></option>
-<% }); %>
+        <script type="template/html" id="locationInfo">
+            <% _.each(locationType, function(element, index, list){ %>
+                <option value="<%= element.price %>"><%= element.name %> - <%= element.price %></option>
+        <% }); %>
 
-</script>
+        </script>
     
 
     

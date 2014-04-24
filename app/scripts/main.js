@@ -11,12 +11,14 @@ $('.jumbotron').append(galleryOptions);
 // Adding customer options together
 
 
+$("form").submit(function(e) {
+	e.preventDefault();
+var costTotal = "1,000,000";
+	$(".cost").append(costTotal);
 
 
 
-
-
-
+});
 
 
 

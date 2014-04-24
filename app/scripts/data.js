@@ -3,67 +3,75 @@ var productType = [
 	"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehabazswYpOFaG5NyP_g-WJVcuuCPj1clJyFQJLCJevpu4g59",
 	"name": "monitor1",
 	"type": "20 in",
-	"price": 200.00,
+	"quote": "Great for editing code, photos, etc.",
+	"price": 200.00
 },
 {
 	"image": "http://www.gadgetreview.com/wp-content/uploads/2011/09/AOC-Razor-e2043Fk-20-Inch-LED-Monitor.jpg",
 	"name": "monitor2",
 	"type": "17 in",
-	"price": 175.00,
+	"quote": "Perfect for workflow",
+	"price": 175.00
 },
 {
 	"image": "http://www.build-your-own-computer.net/image-files/keyboard-01-ergonomic.jpg",
 	"name": "keyboard1",
-	"type": "ergo",
-	"price": 50.00,
+	"type": "ergonomic",
+	"quote": "Take the pain out of typing",
+	"price": 50.00
 },
 {
 	"image": "http://www.all-about-computer-parts.com/image-files/computer_keyboard_keys.jpg",
 	"name": "keyboard2",
 	"type": "standard",
-	"price": 25.00,
+	"quote": "Simple and sturdy",
+	"price": 25.00
 },
 {
 	"image": "http://saimedhacomputers.com/wp-content/uploads/2013/09/Computer-Mouse-3.jpg",
 	"name": "mouse1",
-	"type": "ergo",
-	"price": 30.00,
+	"type": "ergonomic",
+	"quote": "No more hand cramping",
+	"price": 30.00
 },
 {
 	"image": "http://www.photo-dictionary.com/photofiles/list/5202/6846optical_computer_mouse.jpg",
 	"name": "mouse2",
 	"type": "standard",
-	"price": 20.00,
+	"quote": "Built to last",
+	"price": 20.00
 },
 {
 	"image": "http://www.bagswish.com/580/leather-bag-briefcase-16-inch-leather-laptop-computer-bag.jpg",
 	"name": "case1",
 	"type": "leather",
-	"price": 75.00,
+	"quote": "Go to work in style",
+	"price": 75.00
 },
 {
 	"image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT29L8j7aZs3ZquI08R4vZkAtjx_1YuXEFX-WIEKzAMzx-iNaF-",
 	"name": "case2",
 	"type": "nylon",
-	"price": 40.00,
+	"quote": "Tough and stylish",
+	"price": 40.00
 }
 ];
 
-var prodNames = _.pluck(productType, "name");
-console.log(prodNames);
+// var prodNames = _.pluck(productType, "name");
+// console.log(prodNames);
 
 var shipType = [
 {
 	"name": "FedEx Overnight",
-	"price": 20.00,
+	"price": 20.00
 },
 {
 	"name": "FedEx 2 Day",
-	"price": 15.00,
+	"price": 15.00
 },
 {
 	"name": "FedEx Ground",
-	"price": 5.00,
+	"price": 5.00
 }
 ];
 

@@ -13,8 +13,21 @@ $('.jumbotron').append(galleryOptions);
 
 $("form").submit(function(e) {
 	e.preventDefault();
-var costTotal = "1,000,000";
-	$(".cost").append(costTotal);
+	var formData = $(this).serializeArray();
+	var newArrayWithNumbers = _.reduce(formData, function(memo, num){ 
+		var potNumber = Number(num.value);
+		if(typeof potNumber === "number") {
+			console.log(potNumber);
+			return memo.value + potNumber; 
+		} else {
+			console.log("shit is broken");
+		}
+	}, 0);
+// var costTotal = $(".")
+// console.log(formData);
+
+
+	// $(".cost").html(costTotal);
 
 
 

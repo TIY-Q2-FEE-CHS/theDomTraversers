@@ -43,7 +43,7 @@
         <script type="template/html" id="productInfo">
         
          <% _.each(productType,function(element,index,list){ %>
-            <option value="<%= element.name %>"></option>
+            <option value=0></option>
             <option value="<%= element.price %>"><%= element.name %> - <%= element.price %></option>
  
         <% }); %>
@@ -131,8 +131,6 @@
                         <select name="products" class="products"></select>
                         <select name="products" class="products"></select>
                         <select name="products" class="products"></select>
-                        <select name="products" class="products"></select>
-                        <select name="products" class="products"></select>
                 </div>
                 <div class="col-lg-4"> 
                     <h4>Shipping Options ($)</h4>
@@ -143,35 +141,10 @@
                         <select name="location" class="location"></select>
 
                         <div class="checkout">
-                        <p><input type="submit" class="btn btn-lg btn-warning" value="Estimate Cost"></p>
+                        <p><input type="submit" class="btn btn-lg btn-warning" value="Total Cost"></p>
                         <p class="totalCost">$<div class="cost"></div></p>
                         </div>
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    
+                </div>  
                      
                     
                 

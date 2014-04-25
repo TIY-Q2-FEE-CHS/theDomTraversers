@@ -62,35 +62,43 @@ var productType = [
 
 var shipType = [
 {
-	"name": "FedEx Overnight",
-	"price": 20.00
+	"name": "Standard Mail",
+	"price": 2.50
+},
+{
+	"name": "FedEx Ground",
+	"price": 5.00
 },
 {
 	"name": "FedEx 2 Day",
 	"price": 15.00
 },
 {
-	"name": "FedEx Ground",
-	"price": 5.00
+	"name": "FedEx Overnight",
+	"price": 20.00
 }
 ];
 
 var locationType = [
 {
-	"name": "South",
-	"price": 10.00
+	"name": "U.S. South",
+	"price": 2.00
 },
 {
-	"name": "North-East",
-	"price": 20.00
+	"name": "U.S. North-East",
+	"price": 4.00
 },
 {
-	"name": "Mid-West",
-	"price": 30.00
+	"name": "U.S. Mid-West",
+	"price": 6.00
 },
 {
-	"name": "West",
-	"price": 40.00
+	"name": "U.S. West",
+	"price": 8.00
+},
+{
+	"name": "International",
+	"price": 25.00
 }
 ];
 
